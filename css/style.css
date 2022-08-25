@@ -49,13 +49,25 @@ body {
 .header-menu-nav__link-cal {
     margin-right: 27px;
 }
+
+.header-menu-nav__link-cal:hover .header-menu-nav__link-cal_fill_green {
+    fill: #3CB878;
+}
+
 .header-menu-nav__link-envelope {
     margin-right: 24px;
 }
+.header-menu-nav__link-envelope:hover .header-menu-nav__link-envelope_fill_green {
+    fill: #3CB878;
+}
+
+
 .header-menu-nav__link-compass {
     margin-right: 25px;
 }
-
+.header-menu-nav__link-compass:hover .header-menu-nav__link-compass_fill_green {
+    fill: #3CB878;
+}
 
 .header-menu-nav__link-login p,
 .header-menu-nav__link-login a {
@@ -73,7 +85,10 @@ body {
     margin-right: 27px;
     vertical-align: middle;
 }
-
+.header-menu-nav__link-log_color_green:hover ,
+.header-menu-nav__link-sign_color_green:hover  {
+    color: #3CB878;
+}
 
 /* start form */
 
@@ -111,6 +126,10 @@ body {
     font-size: 14px;
     line-height: 1;
     color: #3CB878;
+}
+.header-form-sign-up a:hover {
+    color: #01813F;
+    text-decoration: underline;
 }
 .box-green {
     width: 18px;
