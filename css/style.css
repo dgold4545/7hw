@@ -6,6 +6,7 @@ body {
     background-image: url(../images/bgc/bgc.jpg);
     background-position: center;
     background-size: cover;
+    
     height: 100vh;
 }
 .header {
@@ -37,17 +38,194 @@ body {
 }
 .header-menu-nav__links-sign-up {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     width: 450px;
 }
-
+.header-menu-nav__link-cal {
+    margin-right: 27px;
+}
 .header-menu-nav__link-envelope {
-    margin-left: 28px;
+    margin-right: 24px;
 }
 .header-menu-nav__link-compass {
-    margin-left: 24px;
+    margin-right: 25px;
 }
-.header-menu-nav__link-login {
-    margin-left: 24px;
+
+
+.header-menu-nav__link-login p,
+.header-menu-nav__link-login a {
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+}
+.header-menu-nav__link-login p::before {
+    content: '';
+    border-left: 1px solid rgba(255, 255, 255, 0.9);
+    opacity: 0.5;
+    display: inline-block;
+    height:  19px;
+    margin-right: 27px;
+    vertical-align: middle;
+}
+
+
+/* start form */
+
+.form-sign-up {
+    width: 444px;
+    height: 584px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;    
+    background-color: #fff;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.52);
+
+}
+.form-container {
+    width: 322px;
+    margin: 0 auto;
+}
+.header-form-sign-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.header-form-sign-up h3 {
+    font-size: 20px;
+    line-height: 1;
+    color:  #434343;
+}
+.header-form-sign-up a {
+    font-size: 14px;
+    line-height: 1;
+    color: #3CB878;
+}
+.box-green {
+    width: 18px;
+    height: 18px;
+    background-color: #3CB878;
+    position: absolute;
+    top: 29px;
+}
+.social-media-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+.social-media-btn a {
+    display: inline-block;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn-blue {
+    background-color: #305DB8;
+    padding: 10px 20px;
+}
+
+
+.social-media-btn .btn-blue span::before {
+    content: '';
+    border-left: 1px solid #0A162F;
+    opacity: 0.1;
+    display: inline-block;
+    height:  28px;
+    margin-right: 18px;
+    margin-left: 16px;
+    vertical-align: middle;
+}
+
+.btn-red {
+    background-color: #DF4A32;
+    padding: 10px 20px;
+}
+.social-media-btn .btn-red span::before {
+    content: '';
+    border-left: 1px solid #2b0d09;
+    opacity: 0.1;
+    display: inline-block;
+    height:  28px;
+    margin-right: 26px;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.input-part {
+    display: flex;
+    flex-flow: column;
+}
+.input-part .form-part input {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+.form-input label[type]  {
+    color: #434343;
+    font-size: 14px;
+    line-height: 1;
+    
+    
+}
+
+.form-input label a {
+    color: #3CB878;
+}
+
+
+.submit-btn {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1;
+    background-color: rgba(60, 184, 120, 0.8);
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    height: 46px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.input-text,
+.input-email,
+.input-password {
+    background-color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    border-radius: 4px;
+    border: 1px solid #F2F2F2;
+    outline: none;
+    height: 44px;
+    padding-left: 19px;
+    margin-bottom: 16px;
+}
+.input-text:focus,
+.input-email:focus,
+.input-password:focus {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+}
+.input-password + .input-password {
+    margin-bottom: 20px;
+}
+.input-part .checkbox {
+    /* display: none; */
+    cursor: pointer;
 }
