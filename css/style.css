@@ -160,7 +160,9 @@ body {
     background-color: #305DB8;
     padding: 10px 20px;
 }
-
+.btn-blue:hover {
+    background-color: #022263;
+}
 
 .social-media-btn .btn-blue span::before {
     content: '';
@@ -177,6 +179,10 @@ body {
     background-color: #DF4A32;
     padding: 10px 20px;
 }
+
+.btn-red:hover {
+    background-color: #AB1F09;
+}
 .social-media-btn .btn-red span::before {
     content: '';
     border-left: 1px solid #2b0d09;
@@ -187,7 +193,10 @@ body {
     margin-left: 8px;
     vertical-align: middle;
 }
-
+.form-input {
+    display: flex;
+    flex-flow: column;
+}
 .input-part {
     display: flex;
     flex-flow: column;
@@ -207,10 +216,17 @@ body {
 
 .form-input label a {
     color: #3CB878;
+    display: inline-block;
+    
 }
 
-
+.form-input label a:hover {
+    color: #01813F;
+    border-bottom: 1px solid #01813F;
+    box-sizing: border-box;
+}
 .submit-btn {
+    width: 322px;
     color: #fff;
     font-size: 16px;
     line-height: 1;
@@ -225,8 +241,12 @@ body {
     height: 46px;
     margin-top: 20px;
     cursor: pointer;
+    position: absolute;
+    bottom: 34px;
 }
-
+.submit-btn:hover {
+    background-color: #01813F;
+}
 .input-text,
 .input-email,
 .input-password {
@@ -245,6 +265,11 @@ body {
 .input-password:focus {
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
 }
+.input-text:active,
+.input-email:active,
+.input-password:active {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+}
 .input-password + .input-password {
     margin-bottom: 20px;
 }
@@ -252,4 +277,5 @@ body {
     /* display: none; */
     cursor: pointer;
 }
+
 

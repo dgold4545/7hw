@@ -86,21 +86,22 @@
             </div>
             <div class="form-input form-container">
                 <form class="input-part" action="#">
-                    <input class="input-text" type="text" placeholder="First Name" name="First Name" value="Jason">
-                    <input class="input-text" type="text" placeholder="Last Name" name="Last Name" value="">
-                    <input class="input-email" type="email" placeholder="Email" name="Email" value="">
-                    <input class="input-password" type="password" placeholder="Choose Password" name="Choose Password" value="">
-                    <input class="input-password" type="password" placeholder="Confirm Password" name="Confirm Password" value="">
+                    <input class="input-text" type="text" autofocus required placeholder="First Name" name="First Name" value="Jason">
+                    <input class="input-text" type="text" required placeholder="Last Name" name="Last Name" value="">
+                    <input class="input-email" type="email" required placeholder="Email" name="Email" value="">
+                    <input class="input-password" type="password" required placeholder="Choose Password" name="Choose Password" value="">
+                    <input class="input-password" type="password" required placeholder="Confirm Password" name="Confirm Password" value="">
 
                     <label>
                         <input class="checkbox" type="checkbox" name="Agree with our Terms & Conditions"  value=""> Agree with our 
                         <span>
-                            <a href="#">Terms & Conditions</a>
+                            <a class="checkbox__lable" href="#">Terms & Conditions</a>
                         </span>
                     </label>
 
-                    <input class="submit-btn" type="submit" name="submit-btm" value="Create Account">
+                    <!-- <input class="submit-btn" type="submit" name="submit-btm" value="Create Account"> -->
                 </form>
+                <button class="submit-btn" type="submit" value="Create Account">Create Account</button>
             </div>
         </section>
     </div>
