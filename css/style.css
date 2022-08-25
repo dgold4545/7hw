@@ -33,6 +33,10 @@ body {
     text-transform: uppercase;
     padding: 18px 0;
 }
+.header-menu-nav__link-logo h2:hover {
+    color: #3CB878;  
+}
+
 .header-menu-nav__links-sign-up a {
     display: inline-block;
 }
@@ -229,3 +233,4 @@ body {
     /* display: none; */
     cursor: pointer;
 }
+
