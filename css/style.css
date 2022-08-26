@@ -48,6 +48,7 @@ body {
 }
 .header-menu-nav__link-cal {
     margin-right: 27px;
+    
 }
 
 .header-menu-nav__link-cal:hover .header-menu-nav__link-cal_fill_green {
@@ -247,7 +248,9 @@ body {
 .submit-btn:hover {
     background-color: #01813F;
 }
-
+.submit-btn:focus {
+    outline: 1px solid #FFFFFF;
+}
 
 .input-text,
 .input-email,
@@ -326,4 +329,7 @@ body {
 
 .real-checkbox:checked+.custom-checkbox::before {
     transform: translate(-50%, -50%) scale(1);
+}
+.submit-btn:focus {
+    outline: 1px solid #01813F;
 }
