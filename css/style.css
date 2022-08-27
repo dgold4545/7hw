@@ -12,6 +12,7 @@ body {
 .header {
     background: rgba(0, 0, 0, 0.4);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* opacity: 0.8; */
 }
 .wrap {
     max-width: 1208px;
@@ -35,6 +36,7 @@ body {
 }
 .header-menu-nav__link-logo h2:hover {
     color: #3CB878;  
+    opacity: 0.8;
 }
 
 .header-menu-nav__links-sign-up a {
@@ -53,6 +55,7 @@ body {
 
 .header-menu-nav__link-cal:hover .header-menu-nav__link-cal_fill_green {
     fill: #3CB878;
+    opacity: 0.8;
 }
 
 .header-menu-nav__link-envelope {
@@ -60,6 +63,7 @@ body {
 }
 .header-menu-nav__link-envelope:hover .header-menu-nav__link-envelope_fill_green {
     fill: #3CB878;
+    opacity: 0.8;
 }
 
 
@@ -68,6 +72,7 @@ body {
 }
 .header-menu-nav__link-compass:hover .header-menu-nav__link-compass_fill_green {
     fill: #3CB878;
+    opacity: 0.8;
 }
 
 .header-menu-nav__link-login p,
@@ -88,7 +93,11 @@ body {
 }
 .header-menu-nav__link-log_color_green:hover ,
 .header-menu-nav__link-sign_color_green:hover  {
-    color: #3CB878;
+    color: rgba(60, 184, 120, 0.8);
+    /* opacity: 0.8; */
+}
+.header-menu-nav__link-sign_color_green:hover {
+    opacity: 0.5;
 }
 
 /* start form */
