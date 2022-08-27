@@ -6,19 +6,16 @@ body {
     background-image: url(../images/bgc/bgc.jpg);
     background-position: center;
     background-size: cover;
-    
     height: 100vh;
 }
 .header {
     background: rgba(0, 0, 0, 0.4);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    /* opacity: 0.8; */
 }
 .wrap {
     max-width: 1208px;
     margin: 0 auto;
 }
-
 .header-menu-nav__list {
     display: flex;
     justify-content: space-between;
@@ -36,9 +33,8 @@ body {
 }
 .header-menu-nav__link-logo h2:hover {
     color: #3CB878;  
-    opacity: 0.8;
+    opacity: 0.4;
 }
-
 .header-menu-nav__links-sign-up a {
     display: inline-block;
 }
@@ -50,31 +46,24 @@ body {
 }
 .header-menu-nav__link-cal {
     margin-right: 27px;
-    
 }
-
 .header-menu-nav__link-cal:hover .header-menu-nav__link-cal_fill_green {
-    fill: #3CB878;
-    opacity: 0.8;
+    fill: rgba(60, 184, 120, 0.4);
 }
-
 .header-menu-nav__link-envelope {
     margin-right: 24px;
 }
 .header-menu-nav__link-envelope:hover .header-menu-nav__link-envelope_fill_green {
     fill: #3CB878;
-    opacity: 0.8;
+    opacity: 0.4;
 }
-
-
 .header-menu-nav__link-compass {
     margin-right: 25px;
 }
 .header-menu-nav__link-compass:hover .header-menu-nav__link-compass_fill_green {
     fill: #3CB878;
-    opacity: 0.8;
+    opacity: 0.4;
 }
-
 .header-menu-nav__link-login p,
 .header-menu-nav__link-login a {
     color:#FFFFFF;
@@ -93,15 +82,9 @@ body {
 }
 .header-menu-nav__link-log_color_green:hover ,
 .header-menu-nav__link-sign_color_green:hover  {
-    color: rgba(60, 184, 120, 0.8);
-    /* opacity: 0.8; */
+    color: rgba(60, 184, 120, 0.4);
+    
 }
-.header-menu-nav__link-sign_color_green:hover {
-    opacity: 0.5;
-}
-
-/* start form */
-
 .form-sign-up {
     width: 444px;
     height: 584px;
@@ -113,7 +96,6 @@ body {
     margin: auto;    
     background-color: #fff;
     box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.52);
-
 }
 .form-container {
     width: 322px;
@@ -126,7 +108,6 @@ body {
     margin-top: 30px;
     margin-bottom: 16px;
 }
-
 .header-form-sign-up h3 {
     font-size: 20px;
     line-height: 1;
@@ -153,8 +134,6 @@ body {
     justify-content: space-between;
     margin-bottom: 30px;
 }
-
-
 .social-media-btn a {
     display: inline-block;
     box-sizing: border-box;
@@ -165,7 +144,6 @@ body {
     display: inline-flex;
     align-items: center;
 }
-
 .btn-blue {
     background-color: #305DB8;
     padding: 10px 20px;
@@ -173,7 +151,6 @@ body {
 .btn-blue:hover {
     background-color: #022263;
 }
-
 .social-media-btn .btn-blue span::before {
     content: '';
     border-left: 1px solid #0A162F;
@@ -184,12 +161,10 @@ body {
     margin-left: 16px;
     vertical-align: middle;
 }
-
 .btn-red {
     background-color: #DF4A32;
     padding: 10px 20px;
 }
-
 .btn-red:hover {
     background-color: #AB1F09;
 }
@@ -215,7 +190,6 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 400;
 }
-
 .form-input label[type]  {
     color: #434343;
     font-size: 14px;
@@ -223,13 +197,11 @@ body {
     
     
 }
-
 .form-input label a {
     color: #3CB878;
     display: inline-block;
     
 }
-
 .form-input label a:hover {
     color: #01813F;
     border-bottom: 1px solid #01813F;
@@ -260,7 +232,6 @@ body {
 .submit-btn:focus {
     outline: 1px solid #FFFFFF;
 }
-
 .input-text,
 .input-email,
 .input-password {
@@ -288,10 +259,8 @@ body {
     margin-bottom: 20px;
 }
 .input-part .checkbox {
-    /* display: none; */
     cursor: pointer;
 }
-
 .real-checkbox {
     width: 0;
     height: 0;
@@ -299,14 +268,10 @@ body {
     position: absolute;
     z-index: -1;
     outline: none;
-
 }
-
 .real-checkbox:focus+.custom-checkbox {
     box-shadow: 0 0 0 1px #01813F , 0 0 10px #3CB878;
 }
-
-
 .custom-checkbox {
     display: inline-block;
     width: 20px;
@@ -319,7 +284,6 @@ body {
     position: relative;
     cursor: pointer;
 }
-
 .custom-checkbox::before {
     content: '';
     display: inline-block;
@@ -332,10 +296,8 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) scale(0);
-    
     transition: 0.2s ease-in;
 }
-
 .real-checkbox:checked+.custom-checkbox::before {
     transform: translate(-50%, -50%) scale(1);
 }
